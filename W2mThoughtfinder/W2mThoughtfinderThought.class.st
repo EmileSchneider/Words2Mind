@@ -24,6 +24,7 @@ W2mThoughtfinderThought >> renderContentOn: html [
 	html text: (self creationDate).
 	html break.
 	html strong: (self text).
+
 ]
 
 { #category : #accessing }
